@@ -7,6 +7,13 @@ Your task is to figure out how this code works.
 * Keep coming up with new inputs until you're confident until you're confident that you know how the function works.
 * Write a summary of what the function does.
 
+*SUMMARY*
+1) The function takes some string input.
+2) The function creates a blank string called `answer`, and uses the `for...in` loop to return the index of each character in the string. 
+3) The function checks if one of the characters in the string is a period `.` and if it's not, it assigns `newCharacter` to be equal to `character` (which would be the index of the string).
+4) The function concatenates each iteration of `newCharacter` and assigns it to the variable `answer`. 
+5) The function returns the answer. 
+
 ```js
 function (string){
   let answer = ""
@@ -26,14 +33,14 @@ function (string){
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| "Hey" | "012"  | 
+|"Help" | "0123" | 
+|"Why?" | "0123" | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>The program takes input string and converts it to index and returns it as output string.</td>
   </tr>
 </table>
 
